@@ -11,7 +11,7 @@ mysql_select_db("project",$conn);
 		$sql2=mysql_query("INSERT INTO `project`.`edu_info` (`enroll`, `edu_field`, `board`, `class`, `marks`) VALUES ( '".$_POST["enroll"]."','".$_POST["edu_field"]."', '".$_POST["board"]."', '".$_POST["class"]."', '".$_POST["marks"]."')");
 	
 
-	if ($sql1 && $sql2) {
+	if (sql1 && $sql2) {
 		echo "RECORD INSERTED";
 		header("location:index.php");
 	}
