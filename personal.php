@@ -31,6 +31,13 @@ mysql_select_db("project",$conn);
  		<input type="text" name="address" placeholder="address"><br><br>
  		<input type="text" name="father_name" placeholder="father_name"><br><br>
  		<input type="text" name="BG" placeholder="BG"><br><br>
+	        <input type="number" name="enroll" placeholder="enroll"><br><br>
+ 		<input type="text" name="address" placeholder="address"><br><br>
+ 		<input type="text" name="father_name" placeholder="father_name"><br><br>
+ 		<input type="text" name="BG" placeholder="BG"><br><br><input type="number" name="enroll" placeholder="enroll"><br><br>
+ 		<input type="text" name="address" placeholder="address"><br><br>
+ 		<input type="text" name="father_name" placeholder="father_name"><br><br>
+ 		<input type="text" name="BG" placeholder="BG"><br><br>
  		<input type="text" name="married_status" placeholder="married_status"><br><br>
  	<input type="text" name="DOB" placeholder="DOB"><br><br>
  		<input type="number" name="enroll" placeholder="enroll" >
